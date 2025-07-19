@@ -15,7 +15,7 @@ from sklearn import metrics
 from flask import Flask, request, render_template
 import pickle
 
-app = Flask("__name__")
+app = Flask(__name__)
 
 df_1=pd.read_csv("first_telc.csv")
 
@@ -136,7 +136,7 @@ def predict():
                            query18 = request.form['query18'], 
                            query19 = request.form['query19'])
     
-app.run()
+
 
 if __name__ == "__main__":
     app.run(debug=True)
