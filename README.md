@@ -1,6 +1,6 @@
-# 📉 Customer Churn Prediction Web App
+# 📉 Customer Churn Prediction Model
 
-A machine learning-based web application that predicts whether a customer is likely to churn or stay, built using Flask and deployed with a trained Random Forest model.
+A machine learning-based model that predicts whether a customer is likely to churn or stay.
 
 ## 🔍 Problem Statement
 
@@ -26,17 +26,6 @@ The model is trained using a customer churn dataset similar to [Telco Customer C
 
 ---
 
-## 🛠 Tech Stack
-
-| Component         | Technology           |
-|------------------|----------------------|
-| Backend           | Python, Flask        |
-| Machine Learning  | scikit-learn         |
-| Frontend          | HTML (Jinja2 via Flask) |
-| Model Serialization | pickle            |
-
----
-
 ## 🚀 Features
 
 - 🧮 Takes customer attributes as input via a web form
@@ -46,10 +35,3 @@ The model is trained using a customer churn dataset similar to [Telco Customer C
 
 ---
 
-
-## 📦 How to Run Locally
-
-1. **Clone the repo**
-   ```bash
-   git clone https://github.com/yourusername/customer-churn-prediction.git
-   cd customer-churn-prediction
